@@ -63,7 +63,8 @@ public class trigLib {
 		
 		//converts degrees to radians
 		public static double DegSin(double x){
-
+		x = x * (Pi/180);
+	        return sin(x);
 	    }
 		
                 //converts degrees to radians
