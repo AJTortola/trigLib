@@ -58,7 +58,7 @@ public class trigLib {
 		
 		
 		public static double tan(double x){ //tan function
-	        return cos(x)/sin(x);
+	        return sin(x)/cos(x);
 	    }
 		
 		//converts degrees to radians
